@@ -13,3 +13,4 @@ E:\#1 University\DEPI\C#\Day07\Task\Assignment\Task07Solution\Task07\obj\Debug\n
 E:\#1 University\DEPI\C#\Day07\Task\Assignment\Task07Solution\Task07\obj\Debug\net5.0\Task07.pdb
 E:\#1 University\DEPI\C#\Day07\Task\Assignment\Task07Solution\Task07\obj\Debug\net5.0\Task07.genruntimeconfig.cache
 E:\#1 University\DEPI\C#\Day07\Task\Assignment\Task07Solution\Task07\obj\Debug\net5.0\ref\Task07.dll
+E:\#1 University\DEPI\C#\Day07\Task\Assignment\Task07Solution\Task07\obj\Debug\net5.0\Task07.sourcelink.json
