@@ -42,7 +42,14 @@ namespace Task07
             #endregion
 
             #region Problem6
+            //Rectangle r1 = new Rectangle(5, 3);
+            //r1.Draw();
+            //Console.WriteLine(r1.Area);
+            #endregion
 
+            #region Problem7
+            //IShape c1 = new Circle(2);
+            //c1.PrintDetauls();
             #endregion
         }
     }

@@ -8,7 +8,13 @@ namespace Task07
 {
     internal interface IShape
     {
-        public int Area { get; }
-        public void Draw() { }
+        public double Area { get; }
+        public void Draw();
+
+        public void PrintDetauls()
+        {
+            Draw();
+            Console.WriteLine($"Area: {Area}");
+        }
     }
 }

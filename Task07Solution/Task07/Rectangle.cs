@@ -6,19 +6,23 @@ using System.Threading.Tasks;
 
 namespace Task07
 {
-    internal class Rectangle
+    internal class Rectangle : IShape
     {
         public int Length { get; set; }
         public int Width { get; set; }
 
+        public double Area
+        {
+            get { return Length * Width; }
+        }
+
+
         public Rectangle(int _Length, int _Width)
         { Length = _Length; Width = _Width; }
 
-        //public int Area() 
-        //{ return Length * Width; }
-        //public void Draw()
-        //{
-        //    Console.WriteLine($"Drawing a Rectangle with Lenght = {Length} and Width = {Width}");
-        //}
+        public void Draw()
+        {
+            Console.WriteLine("drawing a rectangle");
+        }
     }
 }
