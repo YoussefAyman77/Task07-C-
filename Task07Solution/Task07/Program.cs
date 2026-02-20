@@ -51,6 +51,11 @@ namespace Task07
             //IShape c1 = new Circle(2);
             //c1.PrintDetauls();
             #endregion
+
+            #region Problem8
+            //IMovable c1 = new Car(43, "Toyota", 1000123);
+            //c1.Move();
+            #endregion
         }
     }
 }

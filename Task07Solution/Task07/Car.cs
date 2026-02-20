@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Task07
 {
-    internal class Car
+    internal class Car : IMovable
     {
         //properties
         public int Id { get; set; }
@@ -30,5 +30,9 @@ namespace Task07
             return $"Car id is {Id} and its brand is {Brand} and is price is {Price}";
         }
 
+        public void Move()
+        {
+            Console.WriteLine("The car is moving");
+        }
     }
 }
